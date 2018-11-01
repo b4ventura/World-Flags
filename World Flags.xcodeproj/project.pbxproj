@@ -12,6 +12,7 @@
 		B0ADD68C218B49E800E41160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0ADD68B218B49E800E41160 /* Assets.xcassets */; };
 		B0ADD68F218B49E800E41160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ADD68D218B49E800E41160 /* LaunchScreen.storyboard */; };
 		B0ADD697218B4AC700E41160 /* worldFlagsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADD696218B4AC700E41160 /* worldFlagsTableViewController.swift */; };
+		B0ADD699218B5A0F00E41160 /* flagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADD698218B5A0F00E41160 /* flagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B0ADD68E218B49E800E41160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0ADD690218B49E800E41160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0ADD696218B4AC700E41160 /* worldFlagsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldFlagsTableViewController.swift; sourceTree = "<group>"; };
+		B0ADD698218B5A0F00E41160 /* flagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B0ADD684218B49E700E41160 /* AppDelegate.swift */,
 				B0ADD696218B4AC700E41160 /* worldFlagsTableViewController.swift */,
+				B0ADD698218B5A0F00E41160 /* flagViewController.swift */,
 				B0ADD688218B49E700E41160 /* Main.storyboard */,
 				B0ADD68B218B49E800E41160 /* Assets.xcassets */,
 				B0ADD68D218B49E800E41160 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0ADD699218B5A0F00E41160 /* flagViewController.swift in Sources */,
 				B0ADD697218B4AC700E41160 /* worldFlagsTableViewController.swift in Sources */,
 				B0ADD685218B49E700E41160 /* AppDelegate.swift in Sources */,
 			);
