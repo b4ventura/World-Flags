@@ -21,10 +21,10 @@ class flagViewController: UIViewController {
 
         flagLabel.text = flag
         
-        // ["🇺🇸","🇬🇧","🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴󠁧󠁢󠁳󠁣󠁴󠁿","🏴󠁧󠁢󠁷󠁬󠁳󠁿"]
+        // ["🇨🇦","🇬🇧","🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴󠁧󠁢󠁳󠁣󠁴󠁿","🇺🇸"]
         
-        if flag == "🇺🇸" {
-            flagOfLabel.text = "Flag of United States of America"
+        if flag == "🇨🇦" {
+            flagOfLabel.text = "Flag of Canada"
         }
         
         if flag == "🇬🇧" {
@@ -39,8 +39,8 @@ class flagViewController: UIViewController {
             flagOfLabel.text = "Flag of Scotland"
         }
         
-        if flag == "🏴󠁧󠁢󠁷󠁬󠁳󠁿" {
-            flagOfLabel.text = "Flag of Wales"
+        if flag == "🇺🇸" {
+            flagOfLabel.text = "Flag of United States"
         }
         
     }

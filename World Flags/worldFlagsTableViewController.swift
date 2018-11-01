@@ -10,7 +10,7 @@ import UIKit
 
 class worldFlagsTableViewController: UITableViewController {
     
-    var flags = ["🇺🇸","🇬🇧","🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴󠁧󠁢󠁳󠁣󠁴󠁿","🏴󠁧󠁢󠁷󠁬󠁳󠁿"]
+    var flags = ["🇨🇦","🇬🇧","🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴󠁧󠁢󠁳󠁣󠁴󠁿","🇺🇸"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
